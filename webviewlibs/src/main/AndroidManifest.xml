@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rgg.webviewlibs">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:usesCleartextTraffic="true">
+        <activity
+            android:name=".base.WebViewActivity"
+            android:configChanges="screenLayout|screenSize|orientation"
+            android:process=":web_view"
+            android:theme="@style/AppTheme" />
+        <!--不是同一进程-->
+        <service android:name=".mainprocess.MainProcessCommandService" />
+    </application>
+
+</manifest>

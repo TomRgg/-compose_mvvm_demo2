@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/cmb_dark_grey</item>
+        <item name="colorPrimaryDark">@color/cmb_dark_grey</item>
+        <item name="colorAccent">@color/cmb_gold</item>
+        <item name="colorControlNormal">@color/cmb_light_grey</item>
+        <item name="colorControlActivated">@color/cmb_light_grey</item>
+        <item name="colorControlHighlight">@color/cmb_light_grey</item>
+    </style>
+
+    <style name="LaunchTheme" parent="AppTheme">
+        <item name="android:windowSplashscreenContent">@mipmap/flash_bg_2</item>
+    </style>
+</resources>

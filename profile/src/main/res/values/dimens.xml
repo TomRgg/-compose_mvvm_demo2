@@ -1,0 +1,9 @@
+<resources>
+    <!--text size-->
+    <dimen name="text_size_5">5sp</dimen>
+    <dimen name="length_240">240dp</dimen>
+    <dimen name="length_300">300dp</dimen>
+    <dimen name="length_66">66dp</dimen>
+    <dimen name="length_56">56dp</dimen>
+    <dimen name="length_25">25dp</dimen>
+</resources>

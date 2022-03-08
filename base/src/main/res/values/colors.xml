@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cmb_light_black">#525C75</color>
+    <color name="cmb_gold_dark">#C2926A</color>
+    <color name="cmb_gold_light">#C2926A</color>
+    <color name="cmb_gold_dark_opacity">#80D0A256</color>
+    <color name="cmb_gold_light_opacity">#80F4C77C</color>
+    <color name="cmb_gold_dark_chart">#DFB774</color>
+    <color name="cmb_gold_dark_chart_opacity">#B5DFB774</color>
+    <color name="cmb_intro_view_bg_opacity">#b3000000</color>
+
+    <color name="msg_done">#27C484</color>
+    <color name="msg_cancel">#A7A7AC</color>
+    <color name="msg_expired">#A7A7AC</color>
+    <color name="msg_failed">#EC5C56</color>
+
+    <color name="active_text_color">#FF353B4A</color>
+    <color name="inactive_text_color">#FF9B9B9B</color>
+    <color name="indicator_color">#FF353B4A</color>
+    <color name="divider_color">#FFEEEEEE</color>
+
+    <color name="value_active_color">#FFEC5D57</color>
+    <color name="value_inactive_color">#FF747F9A</color>
+    <color name="expired_active_color">#FFE9B58E</color>
+    <color name="expired_inactive_color">#FF9B9B9B</color>
+    <color name="description_active_color">#FFEA873B</color>
+    <color name="description_inactive_color">#FF747F9A</color>
+    <color name="use_active_color">#FFEC5D57</color>
+    <color name="use_inactive_color">#FF9B9B9B</color>
+    <color name="use_active_bg_color">#FFEC5D57</color>
+    <color name="use_inactive_bg_color">#FFA2A1A4</color>
+
+    <color name="snow_white">#F3EFEE</color>
+    <color name="dark">#353B4A</color>
+    <color name="grey_shadow">#C3C2C6</color>
+    <color name="grey_black">#D8D8D8</color>
+    <color name="salmon">#DF453F</color>
+    <color name="reward_rule_translucent_white">#80FFFFFF</color>
+
+    <!--pictureSelector-->
+    <color name="color_69">#999999</color>
+    <color name="image_overlay_true">#80000000</color>
+    <color name="image_overlay_false">#20000000</color>
+    <color name="line_color">#EEEEEE</color>
+    <color name="tab_color_true">#FA632D</color>
+    <color name="tab_color_false">#9b9b9b</color>
+    <color name="transparent_white">#F0FFFFFF</color>
+    <color name="transparent_db">#E0DBDBDB</color>
+    <color name="color_CFD5DD">#CFD5DD</color>
+    <color name="cmbkb_gray">#ffcccccc</color>
+    <color name="BF5041">#CD614F</color>
+    <color name="C57550">#C57550</color>
+    <color name="f4f4f4">#f4f4f4</color>
+    <color name="color_383E4D">#383E4D</color>
+    <color name="color_aaa">#AAAAAA</color>
+    <color name="color_925032">#925032</color>
+    <color name="cmbkb_transparent">#00000000</color>
+    <color name="color_2B2B2B">#2B2B2B</color>
+    <color name="color_4D4D4D">#4d4d4d</color>
+
+    <color name="c575757">#575757</color>
+    <color name="E8978D">#E8978D</color>
+    <color name="E7CB8D">#E7CB8D</color>
+    <color name="CD9763">#CD9763</color>
+    <color name="DCB592">#DCB592</color>
+    <color name="d6d6d6">#d6d6d6</color>
+    <color name="color_E8CC9D">#E8CC9D</color>
+    <color name="color_F0D098">#F0D098</color>
+    <color name="color_373737">#373737</color>
+    <color name="cdcdcd">#cdcdcd</color>
+    <color name="color_838383">#838383</color>
+    <color name="BB9B81">#BB9B81</color>
+    <color name="B69058">#B69058</color>
+    <color name="F7F1E9">#F7F1E9</color>
+    <color name="F4E8DA">#F4E8DA</color>
+    <color name="FBF7F2">#FBF7F2</color>
+    <color name="B0BDC5">#B0BDC5</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_8E8E93">#8E8E93</color>
+    <color name="color_C2926A">#C2926A</color>
+    <color name="cmb_dark_grey">#373737</color>
+    <color name="cmb_medium_grey">#8E8E93</color>
+    <color name="cmb_light_grey">#F0F0F0</color>
+    <color name="cmb_white">#FFFFFF</color>
+    <color name="cmb_translucent_white">#80FFFFFF</color>
+    <color name="cmb_gold">#C2926A</color>
+</resources>

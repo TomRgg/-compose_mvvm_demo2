@@ -1,0 +1,7 @@
+include ':app', ':network', ':news'
+rootProject.name='arch_demo'
+include ':base'
+include ':profile'
+include ':market'
+include ':system'
+include ':webviewlibs'

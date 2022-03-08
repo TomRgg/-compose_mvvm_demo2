@@ -1,0 +1,154 @@
+﻿<resources>
+    <string name="app_name">登录组件</string>
+
+    <string name="loading">努力加载中</string>
+    <string name="skip">跳过</string>
+
+    <!-- Action label-->
+    <string name="action_sign_in">登\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="action_sign_in_short_alert">重新登录</string>
+
+    <string name="label_setting">设置</string>
+
+
+    <!-- SignIn Activity -->
+    <string name="prompt_account">用户名</string>
+    <string name="prompt_password">登录密码</string>
+    <string name="register">注册</string>
+    <string name="user_account">一网通用户名 | 手机号</string>
+    <string name="user_password">一网通密码</string>
+    <string name="account_empty_message">用户名长度至少6位，请重新输入</string>
+    <string name="password_empty_message">密码长度至少6位，请重新输入</string>
+    <string name="password_max_message">密码长度至多8位，请重新输入</string>
+    <string name="pwd_different_message">两次输入密码不同</string>
+    <string name="password_no_entry_message">密码不能为空</string>
+    <string name="unknown_message">未知错误，请稍后再试</string>
+    <string name="account_not_exit">用户名不存在</string>
+    <string name="password_error">密码不正确</string>
+    <string name="cmb_keyboard_title">招商银行安全输入</string>
+    <string name="login_network_error">网络连接可能出错，请重试</string>
+    <string name="login_tip_guide">如您已有招商银行App，可直接使用招商银行一网通用户和密码进行登录</string>
+    <string name="login_tip">如你已有招商银行App可直接使用招商银行一网通用户和密码进行登录</string>
+    <string name="login_forget_pwd">忘记密码？</string>
+    <string name="forget_pwd_title">忘记密码</string>
+    <string name="forget_pwd_content">如您忘记密码，请前往“招商银行App”快速找回密码</string>
+    <string name="forget_pwd_confirm">知道了</string>
+    <string name="show_what_is_ywt_user">什么是一网通用户？</string>
+    <string name="what_is_ywt_user_title">什么是一网通用户</string>
+    <string name="what_is_ywt_user_content">一网通用户是由招商银行推出的用户服务体系，可在招商银行一网通主站（www.cmbchina.com）
+                                        、手机银行、掌上生活、招银汇金等渠道进行注册。已有一网通用户，
+                                        可直接使用一网通用户和密码登录，无需注册。</string>
+
+
+    <!-- SmsVerification Activity -->
+    <string name="sms_verification_toolbar">当前设备认证</string>
+    <string name="sms_verification_label">设备首次登录需要手机短信验证</string>
+    <string name="sms_verification_code_label">6位数验证码</string>
+    <string name="sms_verification_send_button">发送验证码</string>
+    <string name="sms_verification_resend_button">重新发送\u0020%s</string>
+    <string name="sms_verification_verify_button">立即验证</string>
+    <string name="sms_verification_send_sms_code_message">短信验证码已发送至您的手机号%s</string>
+    <string name="sms_verification_code_number_verify_message">验证码必须为6位数字</string>
+
+    <!-- Profile Activity -->
+    <string name="account_information">账户信息</string>
+    <string name="avatar">我的头像</string>
+    <string name="username">姓名</string>
+    <string name="cmb_user_account_label">手机号码</string>
+    <string name="logout_btn">退出登录</string>
+    <string name="logout_dialog_title">确认</string>
+    <string name="logout_dialog_content">请确认是否退出当前登录帐号</string>
+
+    <!-- more login methods -->
+    <string name="label_fingerprint_login">指纹登录</string>
+    <string name="label_gesture_recognition">手势登录</string>
+    <string name="label_password_input">密码登录</string>
+    <string name="label_switch_account">切换/注册用户</string>
+    <string name="label_cancel">取消</string>
+
+    <!-- biology login-->
+    <string name="login_description">正在登录中…</string>
+    <string name="fingerprint_invalid">指纹不匹配，请重试</string>
+    <string name="fingerprint_error">指纹验证错误次数超限，请使用其他登录方式</string>
+    <string name="biology_setting">设置快捷登录方式</string>
+    <string name="biology_setting_fingerprint">设置指纹</string>
+    <string name="biology_setting_pattern_lock">设置手势密码</string>
+    <string name="biology_setting_pattern_lock_description">绘制解锁图案</string>
+    <string name="pattern_lock_confirm_description">请再次绘制解锁图案</string>
+    <string name="biology_setting_pattern_lock_invalid">手势密码至少连接4个点</string>
+    <string name="biology_setting_pattern_lock_incorrect">两次绘制图案不一致，请重新绘制</string>
+    <string name="biology_setting_pattern_lock_complete">手势登录设置成功</string>
+    <string name="pattern_login_retry_count">手势密码错误，您还可以尝试%d次</string>
+    <string name="pattern_login_error_max_count">手势登录错误次数超限，请使用其他登录方式</string>
+    <string name="biology_setting_click_fingerprint">点击指纹进行设置</string>
+    <string name="sign_latest_phone">一网通用户\t%s</string>
+    <string name="fingerprint_login_user_name">一网通用户 %s</string>
+    <string name="biometric_dialog_title">指纹登录</string>
+    <string name="input_finger_description">请触摸指纹传感器</string>
+    <string name="fingerprint_open">指纹登录设置成功</string>
+    <string name="fingerprint_close">指纹登录已关闭</string>
+    <string name="gesture_close">手势登录已关闭</string>
+    <string name="hidden_gesture_close">隐藏手势轨迹已关闭</string>
+    <string name="hidden_gesture_open">隐藏手势轨迹已开启</string>
+    <string name="fingerprint_error_message">请等一段时间再验证</string>
+    <string name="fingerprint_login">点击指纹进行登录</string>
+    <string name="fingerprint_login_network_error">网络错误/连接错误，重按指纹</string>
+    <string name="pattern_login_network_error">网络错误/连接错误，重绘手势</string>
+    <string name="fingerprint_login_refresh_token_error">验证失败,请选择密码登录</string>
+    <string name="fingerprint_login_error_message">账户存在异常，请重新登录</string>
+    <string name="fingerprint_enrolled_description">您设备的指纹发生了变化，指纹登录已关闭，需要重新开启</string>
+    <string name="fingerprint_refresh_token_error">您的账号已在其他设备上登录，如非本人操作，您的密码可能已泄露，请立即修改密码，并致电95555</string>
+    <string name="pattern_lock__refresh_token_error">手势登录失败,请使用密码登录</string>
+    <string name="profile_setting">设置</string>
+    <string name="fingerprint_error_from_setting">指纹验证错误次数超限，请稍候再试</string>
+    <string name="hint_verify_user_password">请输入一网通密码验证身份</string>
+    <string name="mobile_bank_authorized_login">使用手机银行登录</string>
+    <string name="pattern_count_not_enough">手势密码至少连接4个点</string>
+    <string name="mobile_bank_title">招商银行官方交易平台</string>
+    <string name="mobile_bank_login">招商银行快速登录</string>
+    <string name="account_password_login">一网通用户密码登录</string>
+    <string name="mobile_bank_login_desc">登录注册说明</string>
+    <string name="login_description_line1">招银汇金App可以通过招商银行一网通用户体系一键登录</string>
+    <string name="login_description_line2">登录招商银行App即可登录使用招银汇金App；</string>
+    <string name="login_description_line3">支持解绑或更换登录账号。</string>
+    <string name="login_description_line4">如您暂无招商银行App，点击此处查看登录招银汇金App的办法。</string>
+    <string name="login_description_sign">注册一网通用户</string>
+    <string name="agree_protocol_text">我已同意《招银汇金App服务协议》、《招银汇金App用户隐私政策》</string>
+    <string name="terms_of_service">服务协议</string>
+    <string name="cmb_name">招银汇金</string>
+    <string name="protocol_title">互联网平台服务协议及隐私政策</string>
+    <string name="protocol_content_1">尊敬的用户：</string>
+    <string name="protocol_content_2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;为使您正常使用招银汇金互联网平台服务，我们需要按照相关法规要求进行实名制管理、履行反洗钱等职责并采取相关风险防范措施。</string>
+    <string name="protocol_content_3">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;我们将严格保护您的个人信息。确保信息安全，具体详见以下条款。</string>
+    <string name="protocol_content_4">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;在点击同意以下协议前，请务必审慎阅读，并充分理解协议条款内容</string>
+    <string name="terms_of_service_title_1">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;《招银汇金App服务协议》</string>
+    <string name="terms_of_service_title_2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;《招银汇金App用户隐私政策》</string>
+    <string name="protocol_content_5">我已阅读并同意以上服务协议及隐私政策</string>
+    <string name="not_agree">不同意并退出</string>
+    <string name="agree">同意</string>
+    <string name="need_protocol_agree">需要您的同意，才能继续使用</string>
+    <string name="please_agree_protocol_first">您需阅读并同意《招银汇金App服务协议》、《招银汇金App用户隐私政策》才可继续；如您不同意，请选择不同意并退出。</string>
+    <string name="network_tip">网络流量提醒</string>
+    <string name="network_content_tip">正在使用非WIFI网络，下载将产生流量费用</string>
+    <string name="register_title_text1">Hello，</string>
+    <string name="register_title_text2">欢迎来到</string>
+    <string name="register_title_text3">招商银行招银汇金</string>
+    <string name="registering">正在注册</string>
+    <string name="send_code_to_phone">验证码已发送至</string>
+    <string name="login_or_register">登录/注册</string>
+    <string name="local_verification">当前设备认证</string>
+    <string name="setting_password">设置登录密码</string>
+    <string name="setting_user_password">登录密码</string>
+    <string name="setting_user_password_again">确认登录密码</string>
+    <string name="next">下一步</string>
+    <string name="setting_password_content">请输入6位-8位数字、字母或数字字母组合，并于常用软件密码不同</string>
+    <string name="password_twice_different">输入两次密码不同</string>
+    <string name="finish">完成</string>
+    <string name="hello">Hello，</string>
+    <string name="sms_login">短信安全登录</string>
+    <string name="password_login">密码登录</string>
+    <string name="input_sms_error">验证码输入错误</string>
+    <string name="special_character_error">密码只能是数字、字母或数字字母组合</string>
+    <string name="validate">招银汇金安全</string>
+</resources>

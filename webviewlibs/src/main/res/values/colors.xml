@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_8E8E93">#8E8E93</color>
+    <color name="color_C2926A">#C2926A</color>
+    <color name="cmb_dark_grey">#373737</color>
+    <color name="cmb_medium_grey">#8E8E93</color>
+    <color name="cmb_light_grey">#F0F0F0</color>
+    <color name="cmb_white">#FFFFFF</color>
+    <color name="cmb_translucent_white">#80FFFFFF</color>
+    <color name="cmb_gold">#C2926A</color>
+</resources>
