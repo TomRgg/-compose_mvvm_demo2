@@ -1,10 +1,23 @@
+
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+//    id 'com.rgg.jiagu'
 }
+apply plugin: 'com.rgg.jiagu'
+
+String os = "${project.rootDir.absolutePath}/jiagu_plugin/tools/jiagu"
+jiagu {
+    name '15989356973'
+    password 'freedom3701960'
+    fileJarPath "${os}/jiagu.jar"
+    toolPath "${os}"
+}
+
 android {
     compileSdkVersion rootProject.compileSdkVersion
     buildToolsVersion rootProject.buildToolsVersion
+
     defaultConfig {
         applicationId "com.xiangxue.arch_demo"
         minSdkVersion rootProject.minSdkVersion
@@ -12,8 +25,20 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    signingConfigs {
+        release {
+            storeFile file('D:\\work\\rgg.jks')
+            keyAlias 'key0'
+            storePassword 'android'
+            keyPassword 'android'
+            v2SigningEnabled false
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

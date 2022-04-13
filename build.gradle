@@ -3,9 +3,15 @@
 buildscript {
     ext.kotlin_version = '1.5.31'
     repositories {
-        jcenter()
-        google()
-        mavenCentral()
+        maven{ url 'https://maven.aliyun.com/repository/google' }
+        maven{ url 'https://maven.aliyun.com/repository/jcenter' }
+        maven{url 'https://maven.aliyun.com/nexus/content/groups/public'}
+//        maven{ url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+//        maven{ url 'https://maven.aliyun.com/repository/google' }
+//        jcenter()
+//        google()
+//        mavenCentral()
+        mavenLocal()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.0.1'
@@ -13,6 +19,8 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        //自定义插件
+        classpath "com.rgg:jiagu:1.0"
     }
 }
 
